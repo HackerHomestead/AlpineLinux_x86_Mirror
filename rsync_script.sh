@@ -8,7 +8,7 @@ fi
 
 for dir in releases community main; do
 	src="rsync://rsync.alpinelinux.org/alpine/v3.20/$dir/x86"
-	dest="/home/handy/repo/alpine/$dir/x86"
+	dest="/home/handy/repo/alpine/v3.20/$dir"
 
 	mkdir -p "$dest"
 	/usr/bin/rsync \
